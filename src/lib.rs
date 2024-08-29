@@ -133,6 +133,7 @@ impl TargetTriple {
             "powerpc64-unknown-linux-gnu" => Some("ppc64"),
             "powerpc64le-unknown-linux-gnu" => Some("ppc64el"),
             "riscv64gc-unknown-linux-gnu" => Some("riscv64"),
+            "riscv64gc-unknown-linux-musl" => Some("riscv64"),
             "s390x-unknown-linux-gnu" => Some("s390x"),
             "sparc64-unknown-linux-gnu" => Some("sparc64"),
             "arm-unknown-linux-musleabihf" => Some("musl-linux-armhf"),
